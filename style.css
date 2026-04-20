@@ -9,6 +9,7 @@ body{
    border-radius:20px;
    margin-left:350px;
    margin-top:150px;
+  
 }
 h1{
     margin-left:30px;
@@ -21,4 +22,29 @@ p{
     color: rgb(31, 30, 30);
     font-size:20px;
     line-height:2px;
+}
+h3{
+   margin-left:200px;
+   color: rgb(22, 17, 17);
+}
+#name{
+    background-color:rgb(206, 203, 203);
+    border-color:black;
+    border-style:groove;
+    padding:4px;
+     margin-left:200px;
+}
+#mail{
+    background-color:rgb(206, 203, 203);
+    border-color:black;
+    border-style:groove;
+    padding:4px;
+     margin-left:200px;
+}
+#password{
+    background-color:rgb(206, 203, 203);
+    border-color:black;
+    border-style:groove;
+    padding:4px;
+    margin-left:200px;
 }

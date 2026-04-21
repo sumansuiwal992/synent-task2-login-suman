@@ -6,9 +6,21 @@
     <title>Login Page UI</title>
     <link rel="stylesheet"href="style.css">
 </head>
+<script>
+function logincheck(){
+    let user = document.getElementById("name").value;
+    let pass = document.getElementById("password").value;
+    
+    if(user !== "" && pass !== ""){
+        window.location.href = "dashboard.html";
+    } else {
+        alert("Please fill all fields!");
+    }
+}
+</script>
 <body>
     <div class="card">
-        <form>
+        
         <h2> Access Dashboard </h2>
         <h3>Username</h3>
           <input type="text"id="name" placeholder="Enter username" required>
@@ -22,15 +34,9 @@
              <br>
             <p id="forgot"> forgot password ?<p>
             <br>
-            <button class="login">login</button>
-            
+            <button class="login" onclick="logincheck()">login</button>
 
-
-              
-
-
-
-        </form>
+        
         </div>
 </body>
 </html>

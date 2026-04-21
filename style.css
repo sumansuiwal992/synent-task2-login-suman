@@ -2,49 +2,103 @@ body{
     background: radial-gradient(ellipse, #3a5c35, #1a2e1a, #0f1f0f);
 }
 .card{
-    background-color: rgba(255,255,255,0.15); 
-    backdrop-filter: blur(12px);
-   border: 1px solid rgba(255,255,255,0.35);
-   width:600px;
-   border-radius:20px;
-   margin-left:350px;
+    background-color:rgba(255,255,255,0.15); 
+    backdrop-filter: blur(10px);
+   border: 1px solid white;
+   border-width:1.8px;
+   box-shadow:0 8px 32px rgba(0,0,0,0.3);
+   width:500px;
+   border-radius:15px;
+   margin-left:450px;
    margin-top:150px;
   
 }
-h1{
+h2{
     margin-left:30px;
     color:white;
-     font-family:'syne',sans-serif;
-     
+     font-family:'Times New Roman', Times, serif ;
+     line-height:5px;
+     text-align: center;
+     line-height:6px;
 }
-p{
-     margin-left:30px;
-    color: rgb(31, 30, 30);
-    font-size:20px;
-    line-height:2px;
-}
+
 h3{
-   margin-left:200px;
+   margin-left:220px;
+    line-height:4px;
    color: rgb(22, 17, 17);
 }
+#name::placeholder{
+    color:rgb(18, 29, 18);
+}
 #name{
-    background-color:rgb(206, 203, 203);
+    color:white;
+    border-radius:8px;
+    background-color:rgba(255,255,255,0.2);
     border-color:black;
-    border-style:groove;
-    padding:4px;
-     margin-left:200px;
+    border:1px solid rgba(255,255,255,0.5);
+    padding:10px;
+    line-height:1px;
+     margin-left:170px;
+}
+#mail::placeholder{
+    color:rgb(18, 29, 18);
 }
 #mail{
-    background-color:rgb(206, 203, 203);
+    color:white;
+    border-radius:8px;
+    background-color:rgba(255,255,255,0.2);
     border-color:black;
-    border-style:groove;
-    padding:4px;
-     margin-left:200px;
+    border:1px solid rgba(255,255,255,0.5);
+    padding:10px;
+    line-height:1px;
+     margin-left:170px;
+}
+#password::placeholder{
+    color:rgb(18, 29, 18);
 }
 #password{
-    background-color:rgb(206, 203, 203);
+    color:white;
+    border-radius:8px;
+    background-color:rgba(255,255,255,0.2);
     border-color:black;
-    border-style:groove;
-    padding:4px;
-    margin-left:200px;
+    border:1px solid rgba(255,255,255,0.5);
+    padding:10px;
+    line-height:1px;
+     margin-left:170px;
+}
+
+#forgot{
+    line-height:1px;
+    margin-top:-10px;
+    margin-left:310px;
+    font-size:15px;
+    color:whitesmoke;
+    cursor: pointer;
+}
+
+.login{
+    border-radius:8px;
+    letter-spacing:2px;
+    transition:all 0.3s ease;
+    width:200px;
+    padding:7px;
+     margin-left: 170px;
+     background-color: #0f1f0f;
+     color:white;
+     cursor:pointer;
+     font-size:20px;
+}
+.login:hover{
+    background-color:#0a2a1a;
+    transform: scale(1.03);
+}
+.remb{
+    font-size:15px;
+    color:whitesmoke;
+    line-height:5px;
+    cursor: pointer;
+  
+}
+#remb{
+    margin-left:130px;
 }

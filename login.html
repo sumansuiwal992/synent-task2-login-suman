@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page UI</title>
     <link rel="stylesheet"href="style.css">
+     <meta name="viewport"
+     content="width=device-width,initial-scale=1.0">
+    
 </head>
 <script>
 function logincheck(){
@@ -29,11 +32,12 @@ function logincheck(){
             <h3>Password</h3>
             <input type="password"id="password" placeholder="Enter your Password" required>
             <br> <br>
-             <input type="checkbox" id="remb">
-             <label class="remb" for="remb">Remember me</label>
-             <br>
-            <p id="forgot"> forgot password ?<p>
-            <br>
+           
+             <div class="row">
+          <label><input type="checkbox"> Remember me</label>
+           <span>forgot password?</span>
+           </div>
+    
             <button class="login" onclick="logincheck()">login</button>
 
         

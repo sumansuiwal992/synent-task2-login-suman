@@ -35,10 +35,6 @@ The purpose of this project is to understand how login interfaces are structured
 * **Login Button**
 * **Forgot Password Link**
 
-## 📸 Preview
-
-(Add your project screenshot here)
-
 ## 📚 What I Learned
 
 * Creating structured layouts using HTML
